@@ -1,5 +1,5 @@
 import List from "./List";
-import IconsBar from "./IconsBar";
+import Img from "./Img";
 import Instagram from "./svg/svgInstagram.svg";
 import LinkedIn from "./svg/svgLinkedin.svg";
 import Github from "./svg/svgGithub.svg"
@@ -17,9 +17,9 @@ function SideBarLeft(){
                 <List item="CONTACT"/>
             </ul>
             <div>
-                <IconsBar source={Instagram} type="Instagram" title="Instagram"/>
-                <IconsBar source={Github} type="Github" title="Github"/>
-                <IconsBar source={LinkedIn} type="LinkedIn" title="LinkedIn"/>
+                <Img source={Instagram} type="Instagram" title="Instagram"/>
+                <Img source={Github} type="Github" title="Github"/>
+                <Img source={LinkedIn} type="LinkedIn" title="LinkedIn"/>
             </div>
         </header>
     )
